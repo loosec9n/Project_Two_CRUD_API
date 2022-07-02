@@ -38,7 +38,7 @@ func main() {
 			Title:"Movie One",
 			Director: &Director{
 				FirstName:"John",
-				LastName:"Doe",
+				LastName:"Doe"
 			}
 		})
 
@@ -48,7 +48,7 @@ func main() {
 			Title:"Movie Two",
 			Director: &Director{
 				FirstName:"Steven",
-				LastName:"Smith",
+				LastName:"Smith"
 			}
 		})
 
@@ -56,7 +56,7 @@ func main() {
 	r.HandleFunc("/movies/{id}",routes.GetMovie).Method("GET")
 	r.HandleFunc("/movies",routes.CreateMovie).Method("POST")
 	r.HandleFunc("/movies/{id}",routes.UpdateMovie).Method("PUT")
-	r.HandleFunc("/movies/{id}",routes.DeleteMoie).Method("DELETE")
+	r.HandleFunc("/movies/{id}",routes.DeleteMovie).Method("DELETE")
 
 	log.Println("Starting server at port 8080")
 	log.Fatal(http.ListenAndServe(":8080",r))
