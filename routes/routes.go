@@ -2,6 +2,7 @@ package routes
 
 import (
 	"encoding/json"
+	"log"
 	"math/rand"
 	"net/http"
 	"strconv"
@@ -15,6 +16,7 @@ var movie []models.Movie
 func GetMovies(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(movie)
+	log.Println("I was here")
 }
 
 func DeleteMovie(w http.ResponseWriter, r *http.Request) {

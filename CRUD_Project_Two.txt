@@ -1,0 +1,12 @@
+2022/07/02 11:33:49 Starting server at port 8080
+2022/07/02 11:39:48 Movie 1 updated
+2022/07/02 11:39:48 Starting server at port 8080
+2022/07/02 11:40:52 Movie 1 updated
+2022/07/02 11:40:52 Starting server at port 8080
+2022/07/02 11:41:04 I was here
+2022/07/02 11:47:11 I was here
+2022/07/02 11:52:18 I was here
+2022/07/02 11:53:00 I was here
+2022/07/02 11:54:08 I was here
+2022/07/02 11:56:35 I was here
+2022/07/02 11:56:41 I was here
